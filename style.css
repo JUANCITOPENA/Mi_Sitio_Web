@@ -330,6 +330,80 @@ article {
 }
 
 
+/* SECCION DE PORTAFOLIO */
+
+/* Center website */
+.main {
+    width: 95%;
+    margin: auto;
+  }
+  
+  .portafolio {
+    width: 100%;
+    margin: 0px auto;
+    height: 80%;
+    border-radius: 25px;
+    background-color: #c2a6a6;
+    margin: 0px auto !important;
+    padding:0px auto !important;
+    padding-bottom: 5px;
+}
+
+.row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 23%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+    .web{
+        color: blue;
+        font-size: 14px;
+        background-color: whitesmoke;
+        
+    }
+
+  .sutitulo{
+    text-align: center;
+    font-size: 25px;
+    background: chartreuse;
+  }
+    p{
+        text-align: justify;
+        font-size: 12px;
+    }
+
+
+    .descripcion{
+        text-align: center;
+        font-size: 18px;
+    }
+/* FIN DE SECCION DE PORTAFOLIO */
+
+
+
     @media only screen and (max-width: 414px) and (min-width: 896px) {
         .container {
             width: 98%;
