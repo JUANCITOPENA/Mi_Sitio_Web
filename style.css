@@ -456,7 +456,7 @@ article {
 
 
 /*Estilo para el Fomulario de Conatacto*/
-.container{
+.contenedor{
 background-color: #dcdde1;
 
 padding: 18px;
@@ -824,7 +824,7 @@ input[type=submit]:hover {
 
 
 /*Estilo para el Fomulario de Conatacto*/
-.container{
+.contenedor{
 background-color:#f5f6fa;
 
 
